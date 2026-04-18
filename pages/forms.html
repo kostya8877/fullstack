@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../forms.css">
+</head>
+
+<body>
+<ul> 
+     <li>
+        <a href="../index.html">Home</a>
+    </li>
+     <li>
+        <a href="./1.html">Page_1</a>
+    </li>
+     <li>
+        <a href="./3.html">Page_3</a>
+    </li>
+</ul>
+
+<h1>FORMS</h1>
+
+<form>
+
+    <fieldset>
+        <legend> Якась певна група філдів</legend>
+    <label for="myInput">Text Input:
+     <input id="myInput" type="text"name="text-input">
+     </label>
+
+     <br>
+     <br>
+
+     <label for="number-Input">Number Input:
+     <input id="number-Input" type="number" name="number-input">
+     </label>
+
+     <br>
+     <br>
+
+     <label for="email-Input">Email Input:</label>
+     <input id="email-Input" type="email" name="email-input">
+     <br>
+     <br>
+     <label for="password-Input">Password Input:</label>
+     <input id="password-Input" type="password" name="password-input">
+     <br>
+     <br> 
+     <label for="big-text">Text Input:</label>
+     <textarea id="big-text" name="my-textarea"></textarea> 
+    <br>
+    <br>
+
+    </fieldset>
+
+     <fieldset>
+       <legend> Інша група  філдів</legend>  
+     <label for="Meat">
+        Meat:
+     <select id="Meat" name="my-meat">
+         <option value="zebras">Зебрамі 1</option>
+         <option value="Boars"> Кабан 2</option>
+         <option value="Wildebeest">Антилопи Гну 3</option>
+     </select>
+    </label>
+    <br>
+    <br>
+
+    <label for="gender">
+        Gender:
+        <input type="radio" name="gender" value="male"> Лев
+        <input type="radio" name="gender" value="female"> Левиця
+        <input type="radio" name="gender" value="Baby"> Дитинча
+     </label>
+
+     <br>
+     <br>   
+
+        <label for="hobby">
+            Hobby:
+            <input type="checkbox" name="hobby" value="hunting">Полювання
+            <input type="checkbox" name="hobby" value="sleeping"> Спить
+            <input type="checkbox" name="hobby" value="playing"> Граючи
+     
+       </label>
+
+         <br>
+        <br>
+       </fieldset>
+          <br>
+         <button type="submit">Some Button</button>
+
+     </form> 
+
+    </body>
+
+</html>
