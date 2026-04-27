@@ -5,7 +5,10 @@
 
 /* Cелектор по тегу */ 
  a {
-    color:blue
+    color:red;
+    display: inline-block;
+    width:500px;
+    height: 200px;
 }
 
 p{
